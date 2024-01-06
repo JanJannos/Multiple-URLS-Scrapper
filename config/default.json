@@ -1,0 +1,9 @@
+{
+  "batchSize": 20,
+  "coolDownPeriod": 30000,
+  "urlThreshold": 400,
+  "maxRetries": 5,
+  "maxDelay": 5000,
+  "rateLimitIncrement": 500,
+  "initialRate": 3000
+}
