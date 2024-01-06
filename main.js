@@ -140,7 +140,6 @@ const processUrlsInBatches = async (hashTable) => {
       fs.mkdirSync(outputDir);
     }
 
-    // Convert array of strings to an object
     const topWordsObject = topWords.reduce((obj, wordCountStr) => {
       const [word, count] = wordCountStr.split(": ");
       obj[word] = parseInt(count);
